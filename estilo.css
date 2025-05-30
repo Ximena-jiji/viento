@@ -1,0 +1,120 @@
+div {
+	background-color: white ;
+	padding: 5px; 
+}
+p{
+	color: black;
+	display: table-cell;
+	padding-right: 80px;
+	font-family: Century Gothic;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white; 
+	}
+
+img {
+	
+	margin-top: 30px; 
+	margin-left: 0px;
+}
+li{
+	padding: 8.4px;
+
+}
+nav{
+	float: right;
+	color: black;
+	display: table-cell;
+	padding-right: 20px;
+	font-family: Century Gothic;
+	
+	margin-top: 20px;
+	margin-right: 50px;
+}
+a{
+	text-decoration: none;
+	font-family: Century Gothic;
+	color: pink;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background-color: lavender;
+	border-radius: 10px;
+}
+
+.menu:active{
+	background-color:purple; 
+}
+
+h1{
+			/*alineacion al centro del texto h1*/
+		text-align: center;
+			/*color de texto h1 */
+		/*color:red;*/
+		    /*aplica sombra al texto se especifica la sombra horizontal y vertical*/
+		    /*aplica efecto de desenfoque a la sombra y un color*/
+		    text-shadow: 1px 2px black, 0 0 25px blue,0 0 5px blue;
+}
+
+div.galeria{ 
+	transform: translateX(20%);
+	/*aplica margen a imagen*/
+	margin: 10px 20px;
+	/* aplica formato a la caja contenedora con la clase galeria */
+	box-shadow: 0 8px 16px 0 purple, 0 12px 40px 0 white;
+    
+	/* flota o ubica a la imagen izquierda*/ 
+	float:left;
+	/* aplica un ancho a la imagen de tamaño 350 pixeles */
+	width: 420px;
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*position: center;*/	
+}
+
+		/* aplica formato a la caja contenedora de la foto formato*/
+div.fotos{
+/*aplica un ancho*/
+width: auto;
+/*aplica un alto*/
+height: auto;
+}	
+
+			/*aplica formato a la contenedora con la etiqueta FOTOS*/
+div.fotos:hover{
+border:40px color: turquoise;
+/*con la propiedad TRANSFORM rotar, transformar, inclinat,sesgar,etc*/
+/*ROTA LA IMAGEN AL CONTRARIO DE LAS MANECILLAS DEL RELOJ*/
+transform: rotate(-10deg);
+}
+
+			/*aplica formato a la caja contenedora con la clase PIE*/
+			div.pie{
+				font-size: 14px;
+				font-family: gadugi;
+				/* aliena el texto al centro*/
+				text-align: center;
+				/*aplica formato SOMBRA AL TEXTO*/
+				text-shadow: 2px 2px 5px purple;
+				/*color: lavender;*/
+				/*aplica formato espacio*/
+				padding: 10px;
+				padding-right: 15px;
+				
+			}
+
+h1{
+			/*alineacion al centro del texto h1*/
+		text-align: center;
+			/*color de texto h1 */
+		color:black;
+		    /*aplica sombra al texto se especifica la sombra horizontal y vertical*/
+		    /*aplica efecto de desenfoque a la sombra y un color*/
+		    text-shadow: 1px 2px lavender, 0 0 25px blue,0 0 5px red;
+}
